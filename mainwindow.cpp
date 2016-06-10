@@ -9,7 +9,6 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     int tabIndex = ui->tabWidget->currentIndex();
-    qDebug() << tabIndex << ui->tabWidget->tabText(tabIndex);
     if(ui->tabWidget->tabText(tabIndex) == "Data usage")
         realtimeusage();
     setWindowTitle("Speedometer");
