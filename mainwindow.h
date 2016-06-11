@@ -16,6 +16,9 @@ public:
     ~MainWindow();
 private slots:
     void realtimeusage();
+    void datausage();
+    //void on_tabWidget_currentChanged(int index);
+
 private:
     Ui::MainWindow *ui;
 };
